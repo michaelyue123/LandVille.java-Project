@@ -10,7 +10,7 @@ class LandVille {
 	boolean hasHouse; 
 	
 // create a LandVille class that takes 2 parameters
-	public LandVille (int row, int col) {
+	private LandVille (int row, int col) {
 		
 // row, column initialization 
 		land = new int[row][col];
@@ -24,7 +24,7 @@ class LandVille {
 	}
 	
 // create a method called displayLand()
-	private void displayLand() {
+	public void displayLand() {
 		for (int i=0; i<land.length; i++) {
 			for (int j=0; j<land[0].length; j++) {
 				System.out.format("%3d",land[i][j]);
