@@ -11,7 +11,7 @@ There are four options you can choose from as following:
 3. Clear land
 4. Quit
 
-## Built with 
+# Built with 
 * Java
 
 ### Prequisites
