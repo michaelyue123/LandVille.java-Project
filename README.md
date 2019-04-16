@@ -11,13 +11,13 @@ There are four options you can choose from as following:
 3. Clear land
 4. Quit
 
-'Build the house' can build both fence and house, but you have to follow this specific order such as building the fence first and then building the house. As I mentioned before, #row(land) - #row(fence) >=2, #row(fence) - #row(house) >=2 and the same rule applies to the column. 
+**Build the house** can build both fence and house, but you have to follow this specific order such as building the fence first and then building the house. As I mentioned before, #row(land) - #row(fence) >=2, #row(fence) - #row(house) >=2 and the same rule applies to the column. 
 
-'Display land' works to display your current work after you type in the row and column number. 
+**Display land** works to display your current work after you type in the row and column number. 
 
-'Clear land' works to reverse all your current work to initial value which is 0. 
+__Clear land__ works to reverse all your current work to initial value which is 0. 
 
-'Quit' is for the time you have finished building the house and you are ready to end the game.
+__Quit__ is for the time you have finished building the house and you are ready to end the game.
 
 ## Built with 
 * Java
