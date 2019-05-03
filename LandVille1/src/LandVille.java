@@ -82,7 +82,7 @@ class LandVille {
         land_rows = input.nextInt();
         
         while (land_rows <= 0 || land_rows > 10){
-            System.out.println("Row should be less than 0 or greater than equal to 10");
+            System.out.println("Row should be less than 10 or greater than equal to 0");
             land_rows = input.nextInt(); 
         }
         
@@ -90,7 +90,7 @@ class LandVille {
         land_cols = input.nextInt();
         
         while (land_cols <= 0 || land_cols > 10){
-            System.out.println("Column should be less than 0 or greater than equal to 10");// the error information to be displayed
+            System.out.println("Column should be less than 10 or greater than equal to 0");// the error information to be displayed
             land_cols = input.nextInt(); 
         }
 
@@ -104,7 +104,6 @@ class LandVille {
 // condition should be the option should be between 1 and 4
             if (option < 0 || option >= 4) {
                 System.out.println("Invalid Input. \nChoose an option from the Menu below: ");
-                continue;
             }
             
             switch (option) {
@@ -157,14 +156,16 @@ class LandVille {
         }
       // when option 4 is chosen
         System.out.println("Program Ends");
+	System.exit.(0);
+	input.close();
     }
 
 // function to display the menu and reducing the duplicacy of the code
     private static void displayMenu() {
         System.out.println("\nChoose from the menu:");
-        System.out.print(" 1. Build a house");
-        System.out.print(" 2. Display land");
-        System.out.print(" 3. Clear the land");
+        System.out.println(" 1. Build a house");
+        System.out.println(" 2. Display land");
+        System.out.println(" 3. Clear the land");
         System.out.println(" 4. Quit");
     }
 }
