@@ -102,7 +102,7 @@ class LandVille {
         while(option!=4)
         {
 // condition should be the option should be between 1 and 4
-            if (option < 0 || option >= 4) {
+            if (option <= 0 || option > 4) {
                 System.out.println("Invalid Input. \nChoose an option from the Menu below: ");
             }
             
